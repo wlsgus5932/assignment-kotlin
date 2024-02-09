@@ -10,7 +10,7 @@ data class JoinRequest(
     @field:Email
     @field:Schema(
         description = "sub(subject) claim 에 들어갈 값",
-        example = "dg.kim@bubaum.com",
+        example = "test@test.com",
         required = true
     )
     val username: String,
